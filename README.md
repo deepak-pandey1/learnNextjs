@@ -1,3 +1,6 @@
+![a2](https://github.com/user-attachments/assets/5edb61cb-ca55-4a92-bccb-af66d500de2d)
+
+
 <h1>Movie Explorer 🎥</h1>
 
 <p>Movie Explorer is a <strong>Next.js</strong> project built to explore movie details fetched from a public API. The application allows users to browse movies dynamically, view detailed information, and more. This project includes <strong>Next.js dynamic routing</strong>, <strong>API fetching</strong>, and MongoDB integration for storing user preferences or movie data.</p>
@@ -53,13 +56,6 @@ NEXT_PUBLIC_API_URL=https://api.example.com</code></pre>
 
 <h2>Deployment</h2>
 <p>The project is not deployed on vercel</p>
-
-<h2>Screenshots</h2>
-![Screenshot](https://github.com/username/repository-name/blob/main/assets/your-image.png)
-
-
-
-
 
 <h2>Contributing</h2>
 <p>Feel free to contribute by submitting a pull request or opening an issue for improvements.</p>
