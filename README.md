@@ -55,7 +55,7 @@ NEXT_PUBLIC_API_URL=https://api.example.com</code></pre>
 <p>The project is not deployed on vercel</p>
 
 <h2>Screenshots</h2>
-<img src="https://github.com/username/repository-name/blob/main/assets/your-image.png" alt="Screenshot" />
+![Screenshot](https://github.com/username/repository-name/blob/main/assets/your-image.png)
 
 
 
