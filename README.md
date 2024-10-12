@@ -55,7 +55,9 @@
 NEXT_PUBLIC_API_URL=https://api.example.com</code></pre>
 
 <h2>Deployment</h2>
-<p>The project is not deployed on vercel</p>
+<p>
+<strong>Note:</strong> This project is currently in development and has not been deployed. To view or test the application, please follow the instructions provided in the <strong>How to Run the Project</strong> section.
+</p>
 
 <h2>Contributing</h2>
 <p>Feel free to contribute by submitting a pull request or opening an issue for improvements.</p>
