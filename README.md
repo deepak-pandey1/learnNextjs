@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Movie Explorer 🎥</h1>
 
-## Getting Started
+<p>Movie Explorer is a <strong>Next.js</strong> project built to explore movie details fetched from a public API. The application allows users to browse movies dynamically, view detailed information, and more. This project includes <strong>Next.js dynamic routing</strong>, <strong>API fetching</strong>, and MongoDB integration for storing user preferences or movie data.</p>
 
-First, run the development server:
+<h2>Features</h2>
+<ul>
+  <li><strong>Dynamic Routing</strong>: Navigate to different pages, including dynamic movie detail pages.</li>
+  <li><strong>API Integration</strong>: Fetch movie data from an external API.</li>
+  <li><strong>MongoDB</strong>: Used for storing and retrieving user or movie-related data.</li>
+  <li><strong>Responsive Design</strong>: Built with HTML and CSS for a clean, responsive layout.</li>
+  <li><strong>React Icons</strong>: For a visually appealing user interface.</li>
+  <li><strong>Link Component</strong>: Used for client-side navigation between pages in the app.</li>
+</ul>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2>Technologies Used</h2>
+<ul>
+  <li><strong>Next.js</strong> (JavaScript)</li>
+  <li><strong>MongoDB</strong></li>
+  <li><strong>HTML/CSS</strong></li>
+  <li><strong>React Icons</strong></li>
+  <li><strong>Public Movie API</strong></li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>How to Run the Project</h2>
+<ol>
+  <li>
+    Clone the repository:
+    <pre><code>git clone https://github.com/your-username/movie-explorer.git</code></pre>
+  </li>
+  <li>
+    Install dependencies:
+    <pre><code>npm install</code></pre>
+  </li>
+  <li>
+    Set up MongoDB:
+    <p>Create a MongoDB database and add the connection URL to the <code>.env.local</code> file:</p>
+    <pre><code>MONGODB_URI=mongodb+srv://&lt;username&gt;:&lt;password&gt;@cluster0.mongodb.net/movie-explorer</code></pre>
+  </li>
+  <li>
+    Start the development server:
+    <pre><code>npm run dev</code></pre>
+  </li>
+  <li>
+    Open your browser and navigate to:
+    <pre><code>http://localhost:3000</code></pre>
+  </li>
+</ol>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<h2>API Used</h2>
+<p>This project uses a public movie API to fetch movie details. Replace the API key in your <code>.env.local</code> file:</p>
+<pre><code>NEXT_PUBLIC_API_KEY=your-api-key
+NEXT_PUBLIC_API_URL=https://api.example.com</code></pre>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h2>Deployment</h2>
+<p>The project is not deployed on vercel</p>
 
-## Learn More
+<h2>Screenshots</h2>
+![a2](https://github.com/user-attachments/assets/ccf8d161-4563-4701-9b2f-f2480f5e6191)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Contributing</h2>
+<p>Feel free to contribute by submitting a pull request or opening an issue for improvements.</p>
